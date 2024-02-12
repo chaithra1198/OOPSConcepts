@@ -6,14 +6,15 @@ public class ComparetwoStrings {
 
 	public static void main(String[] args) 
 	{
-		/*Scanner sc=new Scanner(System.in);
+		//using scanner class
+		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter first String");
 		String first=sc.next();
 		System.out.println("Enter second string");
 		String second=sc.next();
 		compare(first,second);
 	    }
-	
+	//
 		private static void compare(String s1, String s2)
 		{
 			if(s1.compareTo(s2)==0)
@@ -23,8 +24,9 @@ public class ComparetwoStrings {
 			else
 			{
 				System.out.println("Given string is not equal");
-			}*/
-			
+			}
+		
+			//approach 2
 		Scanner sc=new Scanner(System.in);
 		String firststring=sc.next();
 		System.out.println("Enter first program");
